@@ -1,8 +1,9 @@
+import Hero from "./Hero";
+
 export default function Home() {
   return (
-    < >
-      Home Page
-     
+    <>
+     <Hero/>
 
     </>
   )

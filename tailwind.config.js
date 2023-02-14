@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         jose: ['var(--font-josefin)'],
       },
+      backgroundImage: {
+        'home-banner': "url('./assests/Img/banner.png')",
+      }
 
     },
   },
