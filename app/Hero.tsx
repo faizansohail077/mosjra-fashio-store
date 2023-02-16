@@ -1,5 +1,6 @@
 import { Button } from '@/components'
 import React from 'react'
+
 const Hero = () => {
     return (
         <div className=' md:h-[96vh] py-10 md:py-0 bg-[#E6E6E6] md:bg-[url("../assests/Img/banner.png")] bg-no-repeat	bg-cover  bg-fixed bg-center		 ' >

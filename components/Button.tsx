@@ -7,7 +7,6 @@ type Props = {
 const Button = ({ title }: Props) => {
     return (
         <button className='bg-black text-white w-full p-5' >{title}</button>
-
     )
 }
 
