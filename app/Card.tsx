@@ -10,7 +10,7 @@ type Props = {
 }
 const Card = ({ img, title, subtitle }: Props) => {
     return (
-        <div style={{ backgroundImage: `url(${img.src})` }} className={`p-5 flex flex-col justify-center w-full h-[25vh] py-10 md:py-0 bg-no-repeat bg-cover bg-[100%]`} >
+        <div style={{ backgroundImage: `url(${img.src})` }} className={`p-5 flex flex-auto flex-col justify-center w-full h-[30vh] py-10 md:py-0 bg-no-repeat bg-cover bg-[100%]`} >
 
             <p className='font-semibold' >
                 {title}

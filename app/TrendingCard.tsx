@@ -1,6 +1,5 @@
 import { StaticImageData } from 'next/image'
 import React from 'react'
-import img from '../assests/Img/trending1.png'
 
 type Props = {
     img: StaticImageData
