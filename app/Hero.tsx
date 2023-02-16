@@ -3,8 +3,8 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className=' md:h-[96vh] py-10 md:py-0 bg-[#E6E6E6] md:bg-[url("../assests/Img/banner.png")] bg-no-repeat	bg-cover  bg-fixed bg-center		 ' >
-            <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-4 h-full'>
+        <div className=' md:h-[96vh] py-10 lg:py-0 bg-[#E6E6E6] md:bg-[url("../assests/Img/banner.png")] bg-no-repeat	bg-cover  bg-fixed bg-center' >
+            <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex xl:px-0 h-full'>
 
                 <div className='text-center md:text-left flex flex-col h-full justify-center gap-5' >
 
