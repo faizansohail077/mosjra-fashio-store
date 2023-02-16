@@ -1,6 +1,6 @@
-"use"
 import { StaticImageData } from 'next/image'
 import React from 'react'
+
 type Props = {
     img: StaticImageData | any,
     title: string,
@@ -9,9 +9,8 @@ type Props = {
 
 }
 const Card = ({ img, title, subtitle }: Props) => {
-    console.log(img, 'imgimg')
     return (
-        <div  className={`p-3 flex flex-col justify-center w-full h-[25vh] py-10 md:py-0 bg-[url("../assests/Img/subcard2.png")]  bg-no-repeat bg-[100%]`} >
+        <div style={{ backgroundImage: `url(${img.src})` }} className={`p-3 flex flex-col justify-center w-full h-[25vh] py-10 md:py-0 bg-no-repeat bg-[100%]`} >
 
             <p className='font-semibold' >
                 {title}
@@ -20,7 +19,7 @@ const Card = ({ img, title, subtitle }: Props) => {
                 {subtitle}
             </p>
 
-            <p className='mt-2 font-medium underline' >View Deal</p>
+            <p className='mt-2 font-medium underline cursor-pointer' >View Deal</p>
         </div>
     )
 }
