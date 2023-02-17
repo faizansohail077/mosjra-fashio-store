@@ -14,7 +14,7 @@ const friendData = [
 
 const Friends = () => {
     return (
-        <div className='p-4 md:p-0 mt-5 mb-10 md:mt-20 mx-auto  font-jose' >
+        <div className='p-4 md:p-0 mt-5  md:mt-20 mx-auto  font-jose' >
             <h1 className=' text-3xl md:text-5xl text-center mb-5 md:mb-10 ' >Let's Be Friends</h1>
 
             <div className="flex gap-3 md:gap-0 flex-wrap md:flex-nowrap ">

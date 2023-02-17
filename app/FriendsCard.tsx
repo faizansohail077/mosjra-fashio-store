@@ -1,7 +1,6 @@
 import { StaticImageData } from 'next/image'
 import React from 'react'
 import { BsInstagram } from 'react-icons/bs'
-import img from '../assests/Img/friend1.png'
 
 const FriendsCard = ({ img }: { img: StaticImageData }) => {
     return (
