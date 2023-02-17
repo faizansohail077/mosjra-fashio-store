@@ -20,6 +20,7 @@ import img10 from '../assests/Img/trending12.png'
 import img11 from '../assests/Img/trending13.png'
 import img12 from '../assests/Img/trending14.png'
 import Blogs from "./Blogs";
+import Friends from "./Friends";
 
 const cardData1 = [
   { id: 0, img: card1, title: 'For Men', subtitle: 'Clothing Bundle Deal' },
@@ -64,6 +65,7 @@ export default function Home() {
 
       <Trending title="Recent Arrivals" data={trendingCardData2} showButton={false} />
       <Blogs />
+      <Friends />
     </>
   )
 }

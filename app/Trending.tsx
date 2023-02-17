@@ -10,7 +10,7 @@ type Props = {
     img: StaticImageData;
 }
 
-const Trending = ({ showButton, data,title }: { title: string, showButton: Boolean, data: Props[] }) => {
+const Trending = ({ showButton, data, title }: { title: string, showButton: Boolean, data: Props[] }) => {
 
     return (
         <div className='p-5  mt-5 md:mt-20 mx-auto md:max-w-7xl font-jose' >
@@ -22,7 +22,7 @@ const Trending = ({ showButton, data,title }: { title: string, showButton: Boole
             <div className="flex w-full gap-3 md:gap-4 flex-wrap">
                 {data?.map((c) => {
                     return (
-                        <TrendingCard img={c.img} />
+                        <TrendingCard key={c.id} img={c.img} />
                     )
                 })
                 }

@@ -5,7 +5,7 @@ import BlogPost from './BlogPost'
 
 const blogData = [
     { id: 0, text: "1", img: img1 },
-    { id: 0, text: "1", img: img2 },
+    { id: 1, text: "1", img: img2 },
 ]
 
 
@@ -17,7 +17,7 @@ const Blogs = () => {
             <div className="flex gap-3 flex-wrap ">
                 {blogData.map((b) => {
                     return (
-                        <BlogPost img={b.img} />
+                        <BlogPost key={b.id} img={b.img} />
                     )
                 })}
             </div>
