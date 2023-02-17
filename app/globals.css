@@ -5,3 +5,7 @@
 p{
     margin: 0px !important;
 }
+
+.footer-list {
+    @apply  mt-2;
+  }
