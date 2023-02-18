@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../assests/Img/blog1.png'
-import img2 from '../assests/Img/blog2.png'
+import img1 from '../../assests/Img/blog1.png'
+import img2 from '../../assests/Img/blog2.png'
 import BlogPost from './BlogPost'
 
 const blogData = [

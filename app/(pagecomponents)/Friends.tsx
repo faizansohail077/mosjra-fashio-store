@@ -1,9 +1,9 @@
 import React from 'react'
 import FriendsCard from './FriendsCard'
-import img1 from '../assests/Img/friend1.png'
-import img2 from '../assests/Img/friend2.png'
-import img3 from '../assests/Img/friend3.png'
-import img4 from '../assests/Img/friend4.png'
+import img1 from '../../assests/Img/friend1.png'
+import img2 from '../../assests/Img/friend2.png'
+import img3 from '../../assests/Img/friend3.png'
+import img4 from '../../assests/Img/friend4.png'
 
 const friendData = [
     { id: 0, img: img1 },

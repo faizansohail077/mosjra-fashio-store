@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
      
       <div className="mx-auto md:max-w-7xl  border-t-2 border-white py-5 text-white">
-        <div className="flex items-center justify-between ">
+        <div className="flex gap-2 md:gap-0 items-center justify-center md:justify-between ">
           <p>@2022 www.karobarhq.com  all right reserved</p>
           <p>Privacy Policy & Term of Use</p>
         </div>

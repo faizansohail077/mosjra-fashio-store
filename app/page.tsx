@@ -1,6 +1,3 @@
-import Hero from "./Hero";
-import SubHero from "./SubHero";
-import Trending from "./Trending";
 import card1 from "../assests/Img/subcard2.png"
 import card2 from "../assests/Img/subcard3.png"
 import card3 from "../assests/Img/subcard1.png"
@@ -19,8 +16,8 @@ import img9 from '../assests/Img/trending11.png'
 import img10 from '../assests/Img/trending12.png'
 import img11 from '../assests/Img/trending13.png'
 import img12 from '../assests/Img/trending14.png'
-import Blogs from "./Blogs";
-import Friends from "./Friends";
+
+import {Blogs,Friends,Hero,SubHero,Trending} from './(pagecomponents)'
 
 const cardData1 = [
   { id: 0, img: card1, title: 'For Men', subtitle: 'Clothing Bundle Deal' },
