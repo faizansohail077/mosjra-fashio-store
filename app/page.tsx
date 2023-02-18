@@ -17,7 +17,7 @@ import img10 from '../assests/Img/trending12.png'
 import img11 from '../assests/Img/trending13.png'
 import img12 from '../assests/Img/trending14.png'
 
-import {Blogs,Friends,Hero,SubHero,Trending} from './(pagecomponents)'
+import { Blogs, Friends, Hero, SubHero, Trending } from './(pagecomponents)'
 
 const cardData1 = [
   { id: 0, img: card1, title: 'For Men', subtitle: 'Clothing Bundle Deal' },

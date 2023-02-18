@@ -1,3 +1,4 @@
+import { Wrapper } from '@/components'
 import { StaticImageData } from 'next/image'
 import React from 'react'
 
@@ -13,7 +14,7 @@ type Props = {
 
 const SubHero = ({ data }: { data: Props[] }) => {
     return (
-        <div className='mx-auto md:max-w-7xl font-jose' >
+        <Wrapper>
 
             <div className="flex p-5  flex-wrap md:flex-nowrap gap-5 my-5">
                 {data?.map((c: Props) => {
@@ -24,7 +25,7 @@ const SubHero = ({ data }: { data: Props[] }) => {
                 )
                 }
             </div>
-        </div>
+        </Wrapper>
     )
 }
 
