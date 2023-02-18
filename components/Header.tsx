@@ -14,10 +14,10 @@ import Wrapper from './Wrapper'
 const routes = [
     { id: 0, text: 'Home', route: '/' },
     { id: 1, text: 'New Arrivals', route: '/newarrival' },
-    { id: 2, text: 'Men', route: '/' },
-    { id: 3, text: 'Women', route: '/' },
-    { id: 4, text: 'Kids', route: '/' },
-    { id: 5, text: 'Sale', route: '/' },
+    { id: 2, text: 'Men', route: '/men' },
+    { id: 3, text: 'Women', route: '/women' },
+    { id: 4, text: 'Kids', route: '/kids' },
+    { id: 5, text: 'Sale', route: '/sale' },
     { id: 6, text: 'Blogs', route: '/' },
 ]
 
