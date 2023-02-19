@@ -1,6 +1,6 @@
 "use client"
 import { Pagination, Wrapper } from '@/components'
-import React, { useState } from 'react'
+import React from 'react'
 import { ProductData } from './data'
 
 const Products = () => {

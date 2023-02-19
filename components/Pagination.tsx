@@ -48,7 +48,7 @@ function Pagination({ itemsPerPage, data }: { itemsPerPage: number, data: Props[
                     className='flex gap-0 flex-wrap '
                     pageClassName={'bg-white px-5 py-1 border-2'}
                     // pageLinkClassName={"bg-green-300"}
-                    activeClassName={"bg-[#000000] text-white"}
+                    activeClassName={"bg-[#000000] bg-[black] text-white"}
                     disabledClassName="hidden"
                     breakLabel="..."
                     nextLabel={<NextLabel />}

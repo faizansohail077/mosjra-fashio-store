@@ -4,13 +4,13 @@ import React from 'react'
 const Hero = () => {
     return (
         <div className='h-[50vh] w-[100%] lg:py-0 bg-[#E6E6E6]  ' >
-            <div className='bg-[url("../assests/Img/newarrivalbanner.png")]  bg-no-repeat bg-cover bg-[center] h-full w-full' >
+            <div className='bg-[url("../assests/Img/mensbanner.png")]  bg-no-repeat bg-cover bg-[center] h-full w-full' >
                 <Wrapper>
                     <div className='justify-between px-4 md:items-center md:flex xl:px-0 h-full'>
                         <div className='flex flex-col h-full justify-center gap-10' >
-                            <p className=' text-2xl mdtext-5xl font-semibold' >NEW ARRIVALS</p>
+                            <p className=' text-2xl mdtext-5xl font-semibold' >Men's Collection</p>
                             <h1 className='hidden md:inline-block text-sm text-[#292D32] ' >
-                                {" HOME > NEW ARRIVALS"}
+                                {" HOME > MENS COLLECTION"}
                             </h1>
 
                         </div>

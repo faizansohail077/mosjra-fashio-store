@@ -12,9 +12,9 @@ type Props = {
 
 const ProductCard = ({ data }: { data: Props }) => {
     return (
-        <div className='p-5 w-[49%] sm:w-[31%] lg:w-[25%] mt-2' >
+        <div className='relative p-5 w-[49%] sm:w-[31%] lg:w-[25%] mt-2' >
             <Image src={data?.img} alt={"img"} style={{ objectFit: 'cover', height: '80%', width: '100%', objectPosition: '100% 100%' }} />
-
+            {/* <div className=' py-3 bg-[#EC2E2E] w-[30%] absolute top-[53px] right-5 ' >123</div> */}
             <div className='flex flex-col gap-2 mt-2' >
                 <p>Striped denim dress</p>
                 <div className='flex items-center justify-between' >
