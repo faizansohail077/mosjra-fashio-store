@@ -9,22 +9,23 @@ type Props = {
     text?: string;
     price?: string;
     img?: string | any;
+
 }
 
-function Items({ currentItems }: { currentItems: Props[] }) {
+function Items({ currentItems, sale }: { currentItems: Props[], sale?: Boolean }) {
     console.log(currentItems, 'currentItemscurrentItems')
     return (
-        <div className='flex justify-center  flex-wrap' >
+        <div className='flex gap-0 md:gap-2 justify-center  flex-wrap' >
             {currentItems &&
                 currentItems.map((item: any) => (
-                    <ProductCard key={item.id} data={item} />
+                    <ProductCard sale={sale} key={item.id} data={item} />
                 ))}
         </div>
     );
 }
 
 
-function Pagination({ itemsPerPage, data }: { itemsPerPage: number, data: Props[] }) {
+function Pagination({ itemsPerPage, data, sale }: { itemsPerPage: number, data: Props[], sale?: Boolean }) {
     const [itemOffset, setItemOffset] = useState(0);
 
     const endOffset = itemOffset + itemsPerPage;
@@ -42,13 +43,13 @@ function Pagination({ itemsPerPage, data }: { itemsPerPage: number, data: Props[
     return (
         <>
 
-            <Items currentItems={currentItems} />
-            <div className="mx-3 mt-2 md:mx-0 flex items-center justify-center ">
+            <Items sale={sale} currentItems={currentItems} />
+            <div className="mx-3 mt-10 md:mx-0 flex items-center justify-center ">
                 <ReactPaginate
                     className='flex gap-0 flex-wrap '
                     pageClassName={'bg-white px-5 py-1 border-2'}
                     // pageLinkClassName={"bg-green-300"}
-                    activeClassName={"bg-[#000000] bg-[black] text-white"}
+                    activeClassName={"text-red-600"}
                     disabledClassName="hidden"
                     breakLabel="..."
                     nextLabel={<NextLabel />}

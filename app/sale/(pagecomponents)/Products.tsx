@@ -34,7 +34,7 @@ const Products = () => {
                 </div>
 
 
-                <Pagination itemsPerPage={12} data={ProductData} />
+                <Pagination sale itemsPerPage={12} data={ProductData} />
             </div>
         </Wrapper >
     )

@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-p{
+p {
     margin: 0px !important;
 }
 
 .footer-list {
-    @apply  mt-2 cursor-pointer hover:underline ;
-  }
+    @apply mt-2 cursor-pointer hover:underline;
+}
+
+.group:hover .child-div {
+    @apply bottom-0 ;
+}
