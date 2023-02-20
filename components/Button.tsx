@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {
     title: string,
-    light: Boolean
+    light?: Boolean
 }
 
 const Button = ({ title, light }: Props) => {
