@@ -7,7 +7,7 @@ const FriendsCard = ({ img }: { img: StaticImageData }) => {
         <div style={{ backgroundImage: `url(${img.src})` }} className={`flex items-center justify-center w-[48%] md:w-full h-[40vh]  md:h-[50vh] py-10 md:py-0 bg-no-repeat bg-cover bg-center `} >
 
 
-            <div className='opacity-0 hover:opacity-100 hover:bg-neutral-500/30 hover:flex items-center justify-center w-full h-full font-medium cursor-pointer' >
+            <div className='opacity-0 duration-300 hover:opacity-100 hover:bg-neutral-500/30 hover:flex items-center justify-center w-full h-full font-medium cursor-pointer' >
                 <BsInstagram color='white' size={30}
                 />
 
