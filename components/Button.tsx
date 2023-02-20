@@ -1,12 +1,13 @@
 import React from 'react'
 
 type Props = {
-    title: string
+    title: string,
+    light: Boolean
 }
 
-const Button = ({ title }: Props) => {
+const Button = ({ title, light }: Props) => {
     return (
-        <button className='bg-black text-white w-full p-5' >{title}</button>
+        <button className={`${light ? "bg-transparent  hover:bg-black text-black hover:text-white border-2 border-black " : "bg-black text-white  "}  w-full py-3 px-5`} > {title}</button >
     )
 }
 

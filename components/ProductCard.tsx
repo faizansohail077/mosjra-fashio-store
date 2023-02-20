@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
-
+import Button from './Button'
 type Props = {
     id?: string;
     text?: string;
@@ -36,7 +36,7 @@ const ProductCard = ({ data, sale }: { data: Props, sale?: Boolean }) => {
                         })}
                     </div>
                     <div>
-                        <button className='border-2 border-black hover:bg-black hover:text-white w-full py-2 ' >Buy Now</button>
+                   <Button light title='Buy Now' />
                     </div>
                 </div>
 
